@@ -5,23 +5,13 @@ Baten RA, Ghoshal G, Hoque ME, Availability of demographic cues can negatively i
 
 
 ## What's in this Repository
-1. All the preprocessing code is held in the preprocessing_code.ipynb file. Due to the copyright protection of the Alternative Uses Test, we cannot release the raw data which this file takes as input. Instead, sample data files are given in the data/ folder to enable the reader follow along the code. The code is explained with inline comments.
+1. The STERGM_fit.R file takes as input the temporal data of node attributes and edge connections in the bipartite network. It fits a Separable Temporal Exponential Random Graph Model (ST-ERGM) using the temporal snapshots of the bipartite network. As features, it takes into account the 'alter' nodes' creative performance, and the homophily of race and gender between the 'egos' and 'alters'. Seperate models are fit for the link formation and dissolution patterns. Please see the manuscript for details.
 
-2. The analysis_code.ipynb file takes the preprocessed data, and generates the analysis results in the paper. 
-
-3. The art_fig5.R file takes a data csv file as input, and analyzes the data using Aligned Rank Transform, a Linear Mixed Model based non-parametric test. This test controls for multiple comparisons as well as repeated measures in a factorial design setup.
-
-4. The simulation_model.ipynb file holds the code for the agent-based simulation model described in the paper.
+2. The rest of the codebase of the paper will be released upon acceptance.
 
 ## Key Technologies Used
 Key technologies/algorithms/models used in these files include 
 
-- **Word2Vec**
-- **Creativity Quotient** (uses **WordNet**) 
-- **Linear Regression**
-- **One-mode Projection of Bipartite Networks**
-- **Word Mover's Distance**
-- **Aligned Rank Transform**
-- **Agent-based Simulation**
-- **Statistical Tests with Multiple Comparison and Repeated Measures Correction**
+- **Separable Temporal Exponential Random Graph Model (ST-ERGM)**
+- (to be added upon acceptance of the paper)
 
