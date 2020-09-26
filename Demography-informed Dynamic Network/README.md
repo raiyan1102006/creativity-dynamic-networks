@@ -1,2 +1,27 @@
-# creativity-dynamic-networks
-Creativity in Dynamic Social Networks
+# Companion Code for "Availability of demographic cues can negatively impact creativity in dynamic social networks"
+
+This repository holds the codebase for the paper,
+Baten RA, Ghoshal G, Hoque ME, Availability of demographic cues can negatively impact creativity in dynamic social networks, (submitted) [arXiv preprint arXiv:2007.05937](https://arxiv.org/pdf/2007.05937.pdf), September 2020.
+
+
+## What's in this Repository
+1. All the preprocessing code is held in the preprocessing_code.ipynb file. Due to the copyright protection of the Alternative Uses Test, we cannot release the raw data which this file takes as input. Instead, sample data files are given in the data/ folder to enable the reader follow along the code. The code is explained with inline comments.
+
+2. The analysis_code.ipynb file takes the preprocessed data, and generates the analysis results in the paper. 
+
+3. The art_fig5.R file takes a data csv file as input, and analyzes the data using Aligned Rank Transform, a Linear Mixed Model based non-parametric test. This test controls for multiple comparisons as well as repeated measures in a factorial design setup.
+
+4. The simulation_model.ipynb file holds the code for the agent-based simulation model described in the paper.
+
+## Key Technologies Used
+Key technologies/algorithms/models used in these files include 
+
+- **Word2Vec**
+- **Creativity Quotient** (uses **WordNet**) 
+- **Linear Regression**
+- **One-mode Projection of Bipartite Networks**
+- **Word Mover's Distance**
+- **Aligned Rank Transform**
+- **Agent-based Simulation**
+- **Statistical Tests with Multiple Comparison and Repeated Measures Correction**
+
