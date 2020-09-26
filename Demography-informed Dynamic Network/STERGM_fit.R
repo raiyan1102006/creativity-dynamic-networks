@@ -72,7 +72,3 @@ samp.fit <- stergm(network_collection,
 
 summary(samp.fit)
 
-#gof.fit <- gof(samp.fit)
-#plot(gof.fit)
-#print(gof.fit)
-
