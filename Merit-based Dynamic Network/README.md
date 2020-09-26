@@ -6,10 +6,8 @@ Baten RA, Bagley D, Tenesaca A, Clark F, Bagrow JP, Ghoshal G, Hoque ME, Creativ
 
 
 ## What's in this Repository
-1. All the preprocessing code is held in the preprocessing_code.ipynb file. 
+1. All the preprocessing code is held in the preprocessing_code.ipynb file. Due to the copyright protection of the Alternative Uses Test, we cannot release the raw data which this file takes as input. Instead, sample data files are given in the data/ folder to enable the reader follow along the code. The code is explained with inline comments.
 
-Due to the copyright protection of the Alternative Uses Test, we cannot release the raw data which this file takes as input. Instead, sample data files are given in the data/ folder to enable the reader follow along the code. The code is explained with inline comments.
+2. The analysis_code.ipynb takes the preprocessed data, and generates most of the analysis results in the paper. 
 
--- e
-
-2. The analysis_code.ipynb takes the preprocessed data, and generates all the analysis
+The technologies/algorithms/models used in these two files include **Word2Vec**, **Creativity Quotient** (uses **WordNet**), **Linear Regression**, **One-mode Projection of Bipartite Networks**, **Word Mover's Distance**, **Statistical Tests with Multiple Comparison Correction**.
