@@ -1,6 +1,6 @@
 library(lsmeans)
-library("emmeans")
-library("ARTool")
+library(emmeans)
+library(ARTool)
 library(phia)
 library(lme4) 
 library(lmerTest)
@@ -12,10 +12,10 @@ library(plyr)
 library(ez)
 library(dplyr)
 library(xtable)
-library("ggpubr")
+library(ggpubr)
 
 ######### Load data ######### 
-df = read.csv("data/fig5.csv")
+df = read.csv("data/art_fig5.csv")
 View(df)
 df$egoID = factor(df$egoID) # convert to nominal factor
 df$NumPopularAlters = factor(df$NumPopularAlters) # convert to nominal factor
