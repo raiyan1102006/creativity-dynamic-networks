@@ -22,7 +22,7 @@ Key technologies/algorithms/models used in these files include
 - **Linear Regression**
 - **One-mode Projection of Bipartite Networks**
 - **Word Mover's Distance**
-- **Aligned Rank Transform**
+- **Aligned Rank Transform** (uses **Linear Mixed Model**)
 - **Agent-based Simulation**
 - **Statistical Tests with Multiple Comparison and Repeated Measures Correction**
 
