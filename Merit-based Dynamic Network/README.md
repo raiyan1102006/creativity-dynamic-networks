@@ -12,4 +12,6 @@ Baten RA, Bagley D, Tenesaca A, Clark F, Bagrow JP, Ghoshal G, Hoque ME, Creativ
 
 3. The art_fig5.R file takes a data csv file as input, and analyzes the data using Aligned Rank Transform, a Linear Mixed Model based non-parametric test. This test controls for multiple comparisons as well as repeated measures in a factorial design setup.
 
-The technologies/algorithms/models used in these two files include **Word2Vec**, **Creativity Quotient** (uses **WordNet**), **Linear Regression**, **One-mode Projection of Bipartite Networks**, **Word Mover's Distance**, **Aligned Rank Transform**, **Statistical Tests with Multiple Comparison and Repeated Measures Correction**.
+## Key Technologies Used
+Key technologies/algorithms/models used in these two files include **Word2Vec**, **Creativity Quotient** (uses **WordNet**), **Linear Regression**, **One-mode Projection of Bipartite Networks**, **Word Mover's Distance**, **Aligned Rank Transform**, **Statistical Tests with Multiple Comparison and Repeated Measures Correction**.
+
