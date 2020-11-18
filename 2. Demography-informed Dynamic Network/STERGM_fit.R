@@ -20,12 +20,12 @@ logit2prob <- function(logit){
 # user input
 start.round = 1
 end.round = 6
-condition = "tf" # cf for control, tf for treatment
+condition = "cf" # cf for control, tf for treatment
 
 #preprocessing
 cc = ""
 if (condition=="cf") {
-    cc="FULL10_control" #FULL8 is final, full9 has cq ###FULL4 works, FULL2 is the entire old+new control
+    cc="FULL10_control" 
 } else if (condition=="tf") {
     cc="FULL10_treatment"
 } 
