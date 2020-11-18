@@ -2,7 +2,7 @@
 
 This repository holds the codebase for the paper,
 
-Baten RA, Ghoshal G, Hoque ME, Availability of demographic cues can negatively impact creativity in dynamic social networks, (submitted) [arXiv preprint arXiv:2007.05937](https://arxiv.org/pdf/2007.05937.pdf), September 2020.
+Baten RA, Aslin R, Ghoshal G, Hoque ME, Availability of demographic cues can negatively impact creativity in dynamic social networks, (submitted) [arXiv preprint arXiv:2007.05937](https://arxiv.org/pdf/2007.05937.pdf), September 2020.
 
 
 ## What's in this Repository
