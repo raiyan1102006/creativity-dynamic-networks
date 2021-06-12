@@ -5,7 +5,7 @@ library(ggpubr)
 library(phia)
 
 ######### Load data ######### 
-df = read.csv("data/NumPopAlters_condition_factorial.csv")
+df = read.csv("data/NumPopAlters_condition_factorial_new.csv")
 df$Condition = factor(df$Condition) # convert to nominal factor
 df$NumPopAlters = factor(df$NumPopAlters) # convert to nominal factor
 
